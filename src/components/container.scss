@@ -1,0 +1,31 @@
+.dashboard {
+  &__container {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  //&__header {
+  //
+  //}
+  //
+  //&__content {
+  //
+  //}
+
+  &__modal {
+    .button {
+      width: 150px;
+      margin-left: 5px !important;
+    }
+  }
+
+  .carousel {
+    display: flex;
+  }
+
+  .segment {
+    border: none !important;
+    box-shadow: unset !important;
+  }
+}
